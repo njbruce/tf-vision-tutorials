@@ -1,1 +1,5 @@
 .venv
+.python-version
+saved-models
+logs
+*.tflite
