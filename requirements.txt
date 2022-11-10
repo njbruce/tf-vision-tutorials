@@ -8,3 +8,7 @@ jupyterlab
 scikit-learn
 Keras
 tensorflow-hub
+protobuf
+pydot
+tensorflow_datasets
+ipywidgets

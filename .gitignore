@@ -1,5 +1,6 @@
-.venv
+.venv*
 .python-version
 saved-models
 logs
 *.tflite
+.ipynb_checkpoints
