@@ -15,7 +15,7 @@ Run make to install python environment and required packages
 ```BASH
 make
 ```
- - Load python environment
+Load python environment
 ```BASH
 source .venv/bin/activate
 ```
