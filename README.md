@@ -16,7 +16,7 @@ export HDF5_DIR=/opt/homebrew/Cellar/hdf5/1.12.2_2
 make
 ```
 
- - Load python enviromnet
+ - Load python environment
 ```BASH
 source .venv/bin/activate
 ```
