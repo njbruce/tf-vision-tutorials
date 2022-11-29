@@ -17,3 +17,14 @@ tf2.8:
 		.venv-tf2.8/bin/python -m pip install --upgrade pip
 		.venv-tf2.8/bin/python -m pip install --no-binary=h5py h5py
 		.venv-tf2.8/bin/python -m pip install -r requirements-tf2.8.txt
+
+.PHONY: tf2.7metal0.51
+tf2.7metal0.51:
+
+	pyenv local 3.9.8
+	python -m venv .venv_dev_tf2.7-metal0.51
+	.venv_dev_tf2.7-metal0.51/bin/python -m pip install --upgrade pip
+	.venv_dev_tf2.7-metal0.51/bin/python -m pip install --no-binary=h5py h5py
+	.venv_dev_tf2.7-metal0.51/bin/python -m pip install -r requirements-tf2.7-metal051.txt
+
+
